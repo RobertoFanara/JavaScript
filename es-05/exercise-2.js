@@ -7,7 +7,7 @@
 
 
 function calculateSalary(role) {
-  result = 0;
+  let result = 0;
   switch (role) {
     case 'ceo':
       result = 2200 + '€';
