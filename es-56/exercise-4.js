@@ -1,10 +1,11 @@
 function uncompletedNotes(notes) {
-  const arr = []
+  const arr = [];
   notes.forEach((elements) => {
     elements.todos.filter(todos => !todos.done)
                   .forEach((nPass) => arr.push(nPass));
+                  
   });
-console.log(arr)
+console.log(arr);
 }
 
 const notes = [
