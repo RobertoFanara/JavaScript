@@ -21,7 +21,7 @@ class Person {
   get lastName() {
     return this.lastName
   }
-  set firstName(x) {
+  set lastName(x) {
     this.lastName = x
   }
 
