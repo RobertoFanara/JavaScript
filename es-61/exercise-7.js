@@ -1,7 +1,7 @@
 class Person {
-  #firstName;
-  #lastName;
-  #age;
+  #firstName = '';
+  #lastName = '';
+  #age = 0;
 
   constructor(firstName, lastName, age) {
     this.#firstName = firstName;
